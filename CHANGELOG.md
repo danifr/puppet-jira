@@ -4,6 +4,27 @@ All notable changes to this project will be documented in this file.
 Each new release typically also includes the latest modulesync defaults.
 These should not affect the functionality of the module.
 
+## [v5.2.0](https://github.com/voxpupuli/puppet-jira/tree/v5.2.0) (2023-11-06)
+
+[Full Changelog](https://github.com/voxpupuli/puppet-jira/compare/v5.1.0...v5.2.0)
+
+**Breaking changes:**
+
+- Drop Puppet 6 support [\#404](https://github.com/voxpupuli/puppet-jira/pull/404) ([bastelfreak](https://github.com/bastelfreak))
+
+**Implemented enhancements:**
+
+- Allow custom plugin installation and usage of JNDI database connections [\#389](https://github.com/voxpupuli/puppet-jira/pull/389) ([ThomasMinor](https://github.com/ThomasMinor))
+
+**Fixed bugs:**
+
+- Update setenv.sh.epp if statement to work with service desk [\#400](https://github.com/voxpupuli/puppet-jira/pull/400) ([techtino](https://github.com/techtino))
+- Avoid duplicate scheme declaration when using proxy with SSL [\#396](https://github.com/voxpupuli/puppet-jira/pull/396) ([jmcnatt](https://github.com/jmcnatt))
+
+**Merged pull requests:**
+
+- Allow up-to-date dependencies [\#393](https://github.com/voxpupuli/puppet-jira/pull/393) ([smortex](https://github.com/smortex))
+
 ## [v5.1.0](https://github.com/voxpupuli/puppet-jira/tree/v5.1.0) (2021-08-20)
 
 [Full Changelog](https://github.com/voxpupuli/puppet-jira/compare/v5.0.1...v5.1.0)
